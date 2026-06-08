@@ -21,7 +21,7 @@ Gerar senhas aleatórias utilizando strings e funções na linguagem C.
 - Funções
 - Manipulação de arquivos
 
-## Autores
+## Autora
 
 - Ana Thereza Naback
-- Rafael
+
