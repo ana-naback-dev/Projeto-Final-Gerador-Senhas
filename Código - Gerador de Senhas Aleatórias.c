@@ -27,7 +27,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
   - Verificar força da senha
   - Salvar senha em arquivo texto
 
-  Autores: Ana Thereza Naback e Rafael
+  Autora: Ana Thereza Naback 
 ******************************************************************************/
 
 /* Bibliotecas utilizadas */
