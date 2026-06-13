@@ -28,6 +28,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
   - Salvar senha em arquivo texto
 
   Autora: Ana Thereza Naback 
+  
 ******************************************************************************/
 
 /* Bibliotecas utilizadas */
@@ -143,6 +144,11 @@ int LerTamanhoSenha() {
 
   Saída:
     Senha embaralhada
+
+    A função EmbaralhaSenha() é responsável por misturar os caracteres da senha.
+    A variável i percorre a senha de trás para frente e a variável j sorteia uma posição aleatória. 
+    Em seguida, os caracteres dessas duas posições são trocados utilizando a variável temporária temp.
+    Isso aumenta a aleatoriedade e evita padrões previsíveis na senha gerada.
 */
 void EmbaralhaSenha(char senha[], int tamanho) {
 
@@ -313,7 +319,8 @@ int main() {
   char senha[TAM_MAX];
 
   srand(time(NULL));
-
+//srand(time(NULL))-> inicializa o gerador de números aleatórios utilizando o horário atual.
+  
   printf("====================================\n");
   printf("   GERADOR DE SENHAS ALEATORIAS\n");
   printf("====================================\n");
